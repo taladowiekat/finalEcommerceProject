@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Home.module.css';
+import style from './home.module.css';
 import Categories from '../categories/Categories.jsx';
 import { Link } from 'react-router-dom';
 
