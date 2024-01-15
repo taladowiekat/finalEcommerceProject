@@ -10,7 +10,7 @@ import styles from './product.module.css';
 
 // Import Formik components and Yup for validation
 import { Formik, Field, Form, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
+
 
 function Product() {
   const { productId } = useParams();
@@ -159,7 +159,7 @@ function Product() {
       )}
 
       {/* Formik Review Form */}
-      <div className="row mt-4">
+      {/* <div className="row mt-4">
         <div className="col-md-6">
           <h4>Write a Review</h4>
           <Formik
@@ -204,7 +204,7 @@ function Product() {
             </Form>
           </Formik>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
