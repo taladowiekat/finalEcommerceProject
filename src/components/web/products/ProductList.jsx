@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useQuery } from 'react-query';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import styles from './Product.module.css';  // Import the styles
+import styles from './product.module.css';  // Import the styles
 
 const fetchProducts = async (page) => {
     try {
