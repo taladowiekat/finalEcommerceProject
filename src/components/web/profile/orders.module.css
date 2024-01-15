@@ -1,0 +1,16 @@
+/* Orders.module.css */
+
+.ordersContainer {
+    padding: 20px;
+  }
+  
+  .orderItem {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add more styles as needed for the Orders component */
+  

@@ -1,0 +1,9 @@
+.categoriesDetailsContainer {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.categoriesDetailsMessage {
+    text-align: center;
+    width: 100%;
+}

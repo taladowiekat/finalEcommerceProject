@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+.productCard {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.productCard:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.productImage {
+    height: 350px;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.productName {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight:bolder;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+}
+
+.detailsButton {
+    background: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.detailsButton:hover {
+    background: #2980b9;
+}

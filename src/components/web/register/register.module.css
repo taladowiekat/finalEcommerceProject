@@ -1,0 +1,107 @@
+/* 
+.register {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.register:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 20px;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    font-size: 18px;
+    color: #ffffff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form input::placeholder {
+    color: #808080;
+}
+
+.form input:focus {
+    outline: none;
+    background-color: #434343;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+}
+
+.form .btn {
+    margin-top: 10px;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #ff7f50;
+    color: #1a1a1a;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form .btn:hover {
+    background: #ff6347;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    margin-bottom: 12px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    font-size: 18px;
+    color: #ffffff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box;
+}
+
+.input-field:focus {
+    outline: none;
+    background-color: #434343;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+}
+
+.error {
+    border-color: #ff0000;
+}
+
+.error-message {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ff0000;
+} */
